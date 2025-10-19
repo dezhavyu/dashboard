@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="dashboard">
+    <section class="profile-card">
+      <div class="profile-info">
+        <img src="assets/images/avatar-femail.png" alt="User avatar" class="avatar" />
+        <div class="profile-text">
+          <p>Report for</p>
+          <h1>Sofiia<br>Volynets</h1>
+        </div>
+      </div>
+      <div class="time-options">
+        <button class="time-btn active" data-time="daily">Daily</button>
+        <button class="time-btn" data-time="weekly">Weekly</button>
+      </div>
+    </section>
+
+    <section class="cards-container" id="cardsContainer"></section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
